@@ -1,0 +1,14 @@
+{
+    "config": {
+        "firewall": {
+            "active": true,
+            "portForwarding": {}
+        },
+        "DNS-suffix": "lemgen.local",
+        "host-name": "router",
+        "proxy-enabled": false,
+        "proxy": {
+            "proxy-server": ""
+        }
+    }
+}

@@ -1,0 +1,239 @@
+{
+    "192.178.34.0": {
+        "192.178.34.1": {
+            "ip": "192.178.34.1",
+            "mac": "",
+            "name": "Switch-1",
+            "type": "switch",
+            "description": "",
+            "DHCP-enabled": false,
+            "DHCP": {
+                "DHCP-Server": {
+                    "protocol": "TCP",
+                    "link": {
+                        "ip": "",
+                        "type": "",
+                        "sameNetwork": true
+                    }
+                }
+            },
+            "ports": {
+                "fields": {
+                    "amount": 2,
+                    "[::]:1": {
+                        "type": "PoE",
+                        "layers": {
+                            "amount": 2,
+                            "[::]:1": {
+                                "LAN": {
+                                    "amount": 5,
+                                    "[::]:1": {
+                                        "protocol": "TCP",
+                                        "link": {
+                                            "ip": "",
+                                            "type": "",
+                                            "sameNetwork": ""
+                                        },
+                                        "state": "LISTENING"
+                                    },
+                                    "[::]:2": {
+                                        "protocol": "TCP",
+                                        "link": {
+                                            "ip": "",
+                                            "type": "",
+                                            "sameNetwork": ""
+                                        },
+                                        "state": "LISTENING"
+                                    },
+                                    "[::]:3": {
+                                        "protocol": "TCP",
+                                        "link": {
+                                            "ip": "",
+                                            "type": "",
+                                            "sameNetwork": ""
+                                        },
+                                        "state": "LISTENING"
+                                    },
+                                    "[::]:4": {
+                                        "protocol": "TCP",
+                                        "link": {
+                                            "ip": "",
+                                            "type": "",
+                                            "sameNetwork": ""
+                                        },
+                                        "state": "LISTENING"
+                                    },
+                                    "[::]:5": {
+                                        "protocol": "TCP",
+                                        "link": {
+                                            "ip": "",
+                                            "type": "",
+                                            "sameNetwork": ""
+                                        },
+                                        "state": "LISTENING"
+                                    }
+                                }
+                            },
+                            "[::]:2": {
+                                "LAN": {
+                                    "amount": 5,
+                                    "[::]:1": {
+                                        "protocol": "TCP",
+                                        "link": {
+                                            "ip": "",
+                                            "type": "",
+                                            "sameNetwork": ""
+                                        },
+                                        "state": "LISTENING"
+                                    },
+                                    "[::]:2": {
+                                        "protocol": "TCP",
+                                        "link": {
+                                            "ip": "",
+                                            "type": "",
+                                            "sameNetwork": ""
+                                        },
+                                        "state": "LISTENING"
+                                    },
+                                    "[::]:3": {
+                                        "protocol": "TCP",
+                                        "link": {
+                                            "ip": "",
+                                            "type": "",
+                                            "sameNetwork": ""
+                                        },
+                                        "state": "LISTENING"
+                                    },
+                                    "[::]:4": {
+                                        "protocol": "TCP",
+                                        "link": {
+                                            "ip": "",
+                                            "type": "",
+                                            "sameNetwork": ""
+                                        },
+                                        "state": "LISTENING"
+                                    },
+                                    "[::]:5": {
+                                        "protocol": "TCP",
+                                        "link": {
+                                            "ip": "",
+                                            "type": "",
+                                            "sameNetwork": ""
+                                        },
+                                        "state": "LISTENING"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "[::]:2": {
+                        "type": "PoE",
+                        "layers": {
+                            "amount": 2,
+                            "[::]:1": {
+                                "LAN": {
+                                    "amount": 5,
+                                    "[::]:1": {
+                                        "protocol": "TCP",
+                                        "link": {
+                                            "ip": "",
+                                            "type": "",
+                                            "sameNetwork": ""
+                                        },
+                                        "state": "LISTENING"
+                                    },
+                                    "[::]:2": {
+                                        "protocol": "TCP",
+                                        "link": {
+                                            "ip": "",
+                                            "type": "",
+                                            "sameNetwork": ""
+                                        },
+                                        "state": "LISTENING"
+                                    },
+                                    "[::]:3": {
+                                        "protocol": "TCP",
+                                        "link": {
+                                            "ip": "",
+                                            "type": "",
+                                            "sameNetwork": ""
+                                        },
+                                        "state": "LISTENING"
+                                    },
+                                    "[::]:4": {
+                                        "protocol": "TCP",
+                                        "link": {
+                                            "ip": "",
+                                            "type": "",
+                                            "sameNetwork": ""
+                                        },
+                                        "state": "LISTENING"
+                                    },
+                                    "[::]:5": {
+                                        "protocol": "TCP",
+                                        "link": {
+                                            "ip": "",
+                                            "type": "",
+                                            "sameNetwork": ""
+                                        },
+                                        "state": "LISTENING"
+                                    }
+                                }
+                            },
+                            "[::]:2": {
+                                "LAN": {
+                                    "amount": 5,
+                                    "[::]:1": {
+                                        "protocol": "TCP",
+                                        "link": {
+                                            "ip": "",
+                                            "type": "",
+                                            "sameNetwork": ""
+                                        },
+                                        "state": "LISTENING"
+                                    },
+                                    "[::]:2": {
+                                        "protocol": "TCP",
+                                        "link": {
+                                            "ip": "",
+                                            "type": "",
+                                            "sameNetwork": ""
+                                        },
+                                        "state": "LISTENING"
+                                    },
+                                    "[::]:3": {
+                                        "protocol": "TCP",
+                                        "link": {
+                                            "ip": "",
+                                            "type": "",
+                                            "sameNetwork": ""
+                                        },
+                                        "state": "LISTENING"
+                                    },
+                                    "[::]:4": {
+                                        "protocol": "TCP",
+                                        "link": {
+                                            "ip": "",
+                                            "type": "",
+                                            "sameNetwork": ""
+                                        },
+                                        "state": "LISTENING"
+                                    },
+                                    "[::]:5": {
+                                        "protocol": "TCP",
+                                        "link": {
+                                            "ip": "",
+                                            "type": "",
+                                            "sameNetwork": ""
+                                        },
+                                        "state": "LISTENING"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

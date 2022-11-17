@@ -1,0 +1,32 @@
+{
+    "config": {
+        "WiFi": false,
+        "WiFi-Config": {
+            "SSID": "Router-1",
+            "version": 1,
+            "name": "Router-1",
+            "control-options": {
+                "connection-mode": "connect manually"
+            },
+            "security": {
+                "authentification": "WPA2-Personal",
+                "security-key": "PRESENT",
+                "key-content": ""
+            }
+        },
+        "firewall": {
+            "active": true,
+            "wireless-forwards": {
+                "ports": {},
+                "devices": {}
+            }
+        },
+        "DNS-suffix": "Router-1",
+        "host-name": "Router-1",
+        "ip-routing-enabled": false,
+        "proxy-enabled": false,
+        "proxy": {
+            "proxy-server": ""
+        }
+    }
+}

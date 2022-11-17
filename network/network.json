@@ -1,0 +1,604 @@
+{
+  "192.178.34.0": {
+    "192.178.34.1": {
+      "ip": "192.178.34.1",
+      "mac": "C0-B2-22-00-29-2C",
+      "name": "Router-1",
+      "type": "router",
+      "network-type": "WiFi",
+      "isGateway": true,
+      "Gateway": {
+        "publicIP": "93.888.92.15",
+        "hostname": ""
+      },
+      "WiFi": {
+        "networks": {
+          "amount": 2,
+          "[::]:1": {
+            "ssid": "AliceImWlan",
+            "passwordProtected": true,
+            "password": {
+              "password": "73bcca849593c591e4dc305c917e6964a1fa196e5fb7ca9c676883d9b0ad55a5",
+              "hash": "sha256",
+              "salt": "51"
+            },
+            "clients": ["192.178.34.9"]
+          },
+          "[::]:2": {
+            "ssid": "AliceImWlan Gastzugang",
+            "passwordProtected": true,
+            "password": {
+              "password": "73bcca849593c591e4dc305c917e6964a1fa196e5fb7ca9c676883d9b0ad55a5",
+              "hash": "sha256",
+              "salt": "51"
+            },
+            "clients": ["192.178.34.9"]
+          }
+        }
+      },
+      "description": null,
+      "DHCP-enabled": true,
+      "DHCP": {
+        "DHCP-server": "localhost"
+      },
+      "isDHCPServer": true,
+      "ports": {
+        "LAN": {
+          "amount": 5,
+          "[::]:1": {
+            "protocol": "TCP",
+            "link": {
+              "ip": "",
+              "type": "",
+              "sameNetwork": true
+            },
+            "state": "LISTENING"
+          },
+          "[::]:2": {
+            "protocol": "TCP",
+            "link": {
+              "ip": "",
+              "type": "",
+              "sameNetwork": true
+            },
+            "state": "LISTENING"
+          },
+          "[::]:3": {
+            "protocol": "TCP",
+            "link": {
+              "ip": "",
+              "type": "",
+              "sameNetwork": true
+            },
+            "state": "LISTENING"
+          },
+          "[::]:4": {
+            "protocol": "TCP",
+            "link": {
+              "ip": "",
+              "type": "",
+              "sameNetwork": true
+            },
+            "state": "LISTENING"
+          },
+          "[::]:5": {
+            "protocol": "TCP",
+            "link": {
+              "ip": "",
+              "type": "",
+              "sameNetwork": true
+            },
+            "state": "LISTENING"
+          }
+        },
+        "USB": {
+          "amount": 1,
+          "[::]:1": {
+            "protocol": "TCP",
+            "link": {
+              "ip": "",
+              "type": "",
+              "sameNetwork": true
+            },
+            "state": "LISTENING"
+          }
+        }
+      }
+    }
+  },
+  "10.10.10.0": {
+    "10.10.10.1": {
+      "ip": "10.10.10.1",
+      "mac": "A-A-A-00-9-14",
+      "name": "Router 10.10.10",
+      "type": "router",
+      "network-type": "WiFi",
+      "isGateway": true,
+      "Gateway": {
+        "publicIP": "56.524.788.12",
+        "hostname": ""
+      },
+      "WiFi": {
+        "networks": {
+          "amount": 1,
+          "[::]:1": {
+            "ssid": "Great Balls of Fire",
+            "passwordProtected": true,
+            "password": {
+              "password": "599b5793416bb7133c82c4c3537f2c3a74d37eb0feaf00fe962c218304bf02efd1fa75c9996623a19f819af623e78f6c1cc553a183113d9a477d70e186d70102",
+              "hash": "sha256",
+              "salt": "27807882609822953447252048017548",
+              "status": "PRESENT"
+            },
+            "clients": ["10.10.10.223"]
+          }
+        }
+      },
+      "description": "Router for the Network 10.10.10",
+      "DHCP-enabled": true,
+      "DHCP": {
+        "DHCP-server": "localhost"
+      },
+      "isDHCPServer": true,
+      "DHCP-Server": {
+        "IPRange": {
+          "type": "A",
+          "hostAdress": "10.10.10",
+          "startIP": "10.10.10.1",
+          "endIP": "10.10.10.255"
+        },
+        "clients": {
+          "[::]:1": {
+            "ip": "10.10.10.1",
+            "expiring": "2022-08-09 20:48:28"
+          },
+          "[::]:2": {
+            "ip": "10.10.10.252",
+            "expiring": "2022-08-12 12:21:05"
+          },
+          "[::]:3": {
+            "ip": "10.10.10.67",
+            "expiring": "2022-08-12 12:21:05"
+          },
+          "[::]:4": {
+            "ip": "10.10.10.112",
+            "expiring": "2022-08-12 12:21:05"
+          },
+          "[::]:5": {
+            "ip": "10.10.10.223",
+            "expiring": "2022-08-12 12:21:05"
+          },
+          "[::]:6": {
+            "ip": "10.10.10.225",
+            "expiring": "2022-08-12 12:27:21"
+          },
+          "[::]:7": {
+            "ip": "10.10.10.142",
+            "expiring": "2022-08-12 12:27:28"
+          }
+        }
+      },
+      "ports": {
+        "LAN": {
+          "amount": 2,
+          "[::]:1": {
+            "protocol": "TCP",
+            "link": {
+              "ip": "10.10.10.252",
+              "type": "bridge",
+              "sameNetwork": true
+            },
+            "state": "ESTABLISHED"
+          },
+          "[::]:2": {
+            "protocol": "TCP",
+            "link": {
+              "ip": "10.10.10.223",
+              "type": "pc",
+              "sameNetwork": true
+            },
+            "state": "ESTABLISHED"
+          }
+        }
+      }
+    },
+    "10.10.10.223": {
+      "ip": "10.10.10.223",
+      "mac": "A-A-A-01-52-3F",
+      "name": "V-PC-01",
+      "type": "pc",
+      "DHCP-enabled": true,
+      "DHCP": {
+        "DHCP-server": "10.10.10.1"
+      },
+      "ports": {
+        "LAN": {
+          "amount": 2,
+          "[::]:1": {
+            "protocol": "TCP",
+            "link": {
+              "ip": "10.10.10.1",
+              "type": "router",
+              "sameNetwork": true
+            },
+            "state": "ESTABLISHED"
+          },
+          "[::]:2": {
+            "protocol": "TCP",
+            "link": {
+              "ip": "10.10.10.112",
+              "type": "switch",
+              "sameNetwork": true
+            },
+            "state": "ESTABLISHED"
+          }
+        }
+      }
+    },
+    "10.10.10.112": {
+      "ip": "10.10.10.112",
+      "mac": "A-A-A-02-5D-05",
+      "name": "V-Switch-01",
+      "type": "switch",
+      "description": null,
+      "DHCP-enabled": true,
+      "DHCP": {
+        "DHCP-server": "10.10.10.1"
+      },
+      "ports": {
+        "fields": {
+          "amount": 2,
+          "[::]:1": {
+            "type": "PoE",
+            "layers": {
+              "amount": 2,
+              "[::]:1": {
+                "LAN": {
+                  "amount": 5,
+                  "[::]:1": {
+                    "protocol": "TCP",
+                    "link": {
+                      "ip": "10.10.10.252",
+                      "type": "bridge",
+                      "sameNetwork": true
+                    },
+                    "state": "ESTABLISHED"
+                  },
+                  "[::]:2": {
+                    "protocol": "TCP",
+                    "link": {
+                      "ip": "10.10.10.223",
+                      "type": "pc",
+                      "sameNetwork": true
+                    },
+                    "state": "ESTABLISHED"
+                  },
+                  "[::]:3": {
+                    "protocol": "TCP",
+                    "link": {
+                      "ip": "",
+                      "type": "",
+                      "sameNetwork": ""
+                    },
+                    "state": "LISTENING"
+                  },
+                  "[::]:4": {
+                    "protocol": "TCP",
+                    "link": {
+                      "ip": "",
+                      "type": "",
+                      "sameNetwork": ""
+                    },
+                    "state": "LISTENING"
+                  },
+                  "[::]:5": {
+                    "protocol": "TCP",
+                    "link": {
+                      "ip": "",
+                      "type": "",
+                      "sameNetwork": ""
+                    },
+                    "state": "LISTENING"
+                  }
+                }
+              },
+              "[::]:2": {
+                "LAN": {
+                  "amount": 5,
+                  "[::]:1": {
+                    "protocol": "TCP",
+                    "link": {
+                      "ip": "",
+                      "type": "",
+                      "sameNetwork": ""
+                    },
+                    "state": "LISTENING"
+                  },
+                  "[::]:2": {
+                    "protocol": "TCP",
+                    "link": {
+                      "ip": "",
+                      "type": "",
+                      "sameNetwork": ""
+                    },
+                    "state": "LISTENING"
+                  },
+                  "[::]:3": {
+                    "protocol": "TCP",
+                    "link": {
+                      "ip": "",
+                      "type": "",
+                      "sameNetwork": ""
+                    },
+                    "state": "LISTENING"
+                  },
+                  "[::]:4": {
+                    "protocol": "TCP",
+                    "link": {
+                      "ip": "",
+                      "type": "",
+                      "sameNetwork": ""
+                    },
+                    "state": "LISTENING"
+                  },
+                  "[::]:5": {
+                    "protocol": "TCP",
+                    "link": {
+                      "ip": "",
+                      "type": "",
+                      "sameNetwork": ""
+                    },
+                    "state": "LISTENING"
+                  }
+                }
+              }
+            }
+          },
+          "[::]:2": {
+            "type": "PoE",
+            "layers": {
+              "amount": 2,
+              "[::]:1": {
+                "LAN": {
+                  "amount": 5,
+                  "[::]:1": {
+                    "protocol": "TCP",
+                    "link": {
+                      "ip": "",
+                      "type": "",
+                      "sameNetwork": ""
+                    },
+                    "state": "LISTENING"
+                  },
+                  "[::]:2": {
+                    "protocol": "TCP",
+                    "link": {
+                      "ip": "",
+                      "type": "",
+                      "sameNetwork": ""
+                    },
+                    "state": "LISTENING"
+                  },
+                  "[::]:3": {
+                    "protocol": "TCP",
+                    "link": {
+                      "ip": "",
+                      "type": "",
+                      "sameNetwork": ""
+                    },
+                    "state": "LISTENING"
+                  },
+                  "[::]:4": {
+                    "protocol": "TCP",
+                    "link": {
+                      "ip": "",
+                      "type": "",
+                      "sameNetwork": ""
+                    },
+                    "state": "LISTENING"
+                  },
+                  "[::]:5": {
+                    "protocol": "TCP",
+                    "link": {
+                      "ip": "",
+                      "type": "",
+                      "sameNetwork": ""
+                    },
+                    "state": "LISTENING"
+                  }
+                }
+              },
+              "[::]:2": {
+                "LAN": {
+                  "amount": 5,
+                  "[::]:1": {
+                    "protocol": "TCP",
+                    "link": {
+                      "ip": "",
+                      "type": "",
+                      "sameNetwork": ""
+                    },
+                    "state": "LISTENING"
+                  },
+                  "[::]:2": {
+                    "protocol": "TCP",
+                    "link": {
+                      "ip": "",
+                      "type": "",
+                      "sameNetwork": ""
+                    },
+                    "state": "LISTENING"
+                  },
+                  "[::]:3": {
+                    "protocol": "TCP",
+                    "link": {
+                      "ip": "",
+                      "type": "",
+                      "sameNetwork": ""
+                    },
+                    "state": "LISTENING"
+                  },
+                  "[::]:4": {
+                    "protocol": "TCP",
+                    "link": {
+                      "ip": "",
+                      "type": "",
+                      "sameNetwork": ""
+                    },
+                    "state": "LISTENING"
+                  },
+                  "[::]:5": {
+                    "protocol": "TCP",
+                    "link": {
+                      "ip": "",
+                      "type": "",
+                      "sameNetwork": ""
+                    },
+                    "state": "LISTENING"
+                  }
+                }
+              }
+            }
+          },
+          "[ROUTERPORT]": {
+            "protocol": "TCP",
+            "link": {
+              "ip": "",
+              "type": "",
+              "sameNetwork": true
+            },
+            "state": "LISTENING"
+          }
+        }
+      }
+    },
+    "10.10.10.67": {
+      "ip": "10.10.10.67",
+      "mac": "A-A-A-03-05-9",
+      "name": "V-PC-02",
+      "type": "pc",
+      "DHCP-enabled": true,
+      "DHCP": {
+        "DHCP-server": "10.10.10.1"
+      },
+      "ports": {
+        "LAN": {
+          "amount": 2,
+          "[::]:1": {
+            "protocol": "TCP",
+            "link": {
+              "ip": "10.10.10.252",
+              "type": "bridge",
+              "sameNetwork": true
+            },
+            "state": "ESTABLISHED"
+          },
+          "[::]:2": {
+            "protocol": "TCP",
+            "link": {
+              "ip": "",
+              "type": "",
+              "sameNetwork": true
+            },
+            "state": "LISTENING"
+          }
+        }
+      }
+    },
+    "10.10.10.252": {
+      "ip": "10.10.10.252",
+      "mac": "A-A-A-04-5D-41",
+      "name": "V-Bridge-01",
+      "decription": "None",
+      "type": "bridge",
+      "DHCP-enabled": true,
+      "DHCP": {
+        "DHCP-server": "10.10.10.1"
+      },
+      "ports": {
+        "layer": {
+          "amount": 2,
+          "[LAYER]:1": {
+            "LAN": {
+              "amount": 2,
+              "[::]:1": {
+                "protocol": "TCP",
+                "link": {
+                  "ip": "10.10.10.1",
+                  "type": "router",
+                  "sameNetwork": true
+                },
+                "state": "ESTABLISHED"
+              },
+              "[::]:2": {
+                "protocol": "TCP",
+                "link": {
+                  "ip": "10.10.10.67",
+                  "type": "pc",
+                  "sameNetwork": true
+                },
+                "state": "ESTABLISHED"
+              }
+            }
+          },
+          "[LAYER]:2": {
+            "LAN": {
+              "amount": 2,
+              "[::]:1": {
+                "protocol": "TCP",
+                "link": {
+                  "ip": "10.10.10.112",
+                  "type": "switch",
+                  "sameNetwork": true
+                },
+                "state": "ESTABLISHED"
+              },
+              "[::]:2": {
+                "protocol": "TCP",
+                "link": {
+                  "ip": "",
+                  "type": "",
+                  "sameNetwork": true
+                },
+                "state": "LISTENING"
+              }
+            }
+          }
+        }
+      }
+    },
+    "10.10.10.142": {
+      "ip": "10.10.10.142",
+      "mac": "A-A-A-05-52-33",
+      "name": "V-PC-03",
+      "type": "pc",
+      "DHCP-enabled": true,
+      "DHCP": {
+        "DHCP-server": "10.10.10.1"
+      },
+      "ports": {
+        "LAN": {
+          "amount": 2,
+          "[::]:1": {
+            "protocol": "TCP",
+            "link": {
+              "ip": "",
+              "type": "",
+              "sameNetwork": true
+            },
+            "state": "LISTENING"
+          },
+          "[::]:2": {
+            "protocol": "TCP",
+            "link": {
+              "ip": "",
+              "type": "",
+              "sameNetwork": true
+            },
+            "state": "LISTENING"
+          }
+        }
+      }
+    }
+  }
+}
